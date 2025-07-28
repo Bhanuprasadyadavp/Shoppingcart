@@ -17,6 +17,7 @@ public class ProductDAO {
 	ProductRepository repository;
 	
 	// adding products(Obj) into cart
+	//new changes
 	public  Product addProduct(Product product) {
 		return repository.save(product);
 	}
@@ -41,6 +42,7 @@ public class ProductDAO {
 	
 	}
 	
+	//added the code for just checking purpose
 	
 	public String deleteProductById(int id) {
 		Product p=findProductById(id);
