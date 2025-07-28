@@ -17,6 +17,7 @@ public class ProductDAO {
 	ProductRepository repository;
 	
 	// adding products(Obj) into cart
+	//new changes
 	public  Product addProduct(Product product) {
 		return repository.save(product);
 	}
